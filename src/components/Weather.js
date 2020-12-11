@@ -6,6 +6,7 @@ function Weather() {
   const [zip, setZip] = useState('');
   const [weather, setWeather] = useState(null);
   
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     // We will call the API using axios

@@ -7,6 +7,7 @@ function Nav() {
             <li><Link to ='/contact'>Contact</Link></li>
             <li><Link to ='/games'>Games</Link></li>
             <li><Link to ='/weather'>Weather</Link></li>
+            <li><Link to ='/github'>Github</Link></li>
         </ul>
     )
 }

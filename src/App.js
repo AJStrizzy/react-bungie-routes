@@ -6,6 +6,7 @@ import Games from './components/Games'
 import Nav from './components/Nav'
 import GameDetails from './components/GameDetails'
 import Weather from './components/Weather'
+import Github from './components/Github'
 
 
 
@@ -55,7 +56,8 @@ function App() {
           const targetGame = gameList.find((p) => p.id === parseInt(id))
           return <GameDetails game={targetGame} />
         }} />
-        <Route path="/Weather" component={Weather}/>
+        <Route path="/weather" component={Weather}/>
+        <Route path="/github" component={Github}/>
       </div>
     </BrowserRouter>  
   );
